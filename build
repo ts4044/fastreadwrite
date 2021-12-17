@@ -1,0 +1,15 @@
+#!/bin/sh
+gcc part1.c -o run
+echo "Compiled Part 1 - run created. Usage : ./run <filename> [-r|-w] <blocksize> <blockcount>"
+
+gcc part2.c -o run2
+echo "Compiled Part 2 - run2 created. Usage : ./run2 <filename> <blocksize>"
+
+gcc "part3,4.c" -o run3
+echo "Compiled Part 3 and 4 - run3 created. Usage : ./run3 <filename> <blocksize> <blockcount>"
+
+gcc part5.c -o run5
+echo "Compiled Part 3 and 4 - run3 created. Usage : ./run3 <filename>"
+
+gcc part6.c -o fast
+echo "Compiled Part 6 - fast created. Usage : ./fast <filename>"
